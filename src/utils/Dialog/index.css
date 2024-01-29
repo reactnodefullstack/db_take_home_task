@@ -1,0 +1,57 @@
+.dialogBackDrop {
+    height:100vh; 
+    width: 100vw; 
+    background-color:rgba(0,0,0,.5); 
+    position:absolute; 
+    z-Index:99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dialog {
+    height:25vh; 
+    width: 35vw;
+    background-color: white;
+    z-Index:100;
+    display: flex;
+    flex-direction: column;
+}
+.dialogHeader {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dialogTitle {
+    font-size: 150%;
+}
+.dialogContent {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dialogContentText {
+    background-color: white;
+}
+.dialogFooter {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.okButton {
+    height: 4vh;
+    width: 8vh;
+    background-color: rgba(50, 137, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+    color: white;
+}
+.okButton:hover {
+    cursor:pointer
+}
