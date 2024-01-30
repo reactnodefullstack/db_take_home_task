@@ -5,6 +5,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 import Dialog from './utils/Dialog/index.tsx'
 
 function ErrorFallbackComponent({ error, resetErrorBoundary }) {
+  console.log('**** Error = ', error)
   return <Dialog title="Error" content={error} action={resetErrorBoundary}/>
 }
 
